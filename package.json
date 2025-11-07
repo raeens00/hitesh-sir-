@@ -1,0 +1,13 @@
+{
+  "name": "backend-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords":  [],
+  "author": "sameer",
+  "license": "ISC",
+  "description": "a chai aur backend channels"
+}
