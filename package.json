@@ -2,12 +2,20 @@
   "name": "backend-setup",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon src/index.js",
     "start": "node index.js"
   },
-  "keywords":  [],
+  "keywords": [
+    "backend",
+    "chai",
+    "express"
+  ],
   "author": "sameer",
   "license": "ISC",
-  "description": "a chai aur backend channels"
+  "description": "a chai aur backend channels",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
